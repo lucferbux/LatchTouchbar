@@ -22,6 +22,7 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        UserDefaults.standard.removeObject(forKey: "app_id")
         if let account = UserDefaults.standard.string(forKey: "app_id") {
             self.accountId = account
             loginView.isHidden = true
@@ -38,6 +39,7 @@ class ViewController: NSViewController {
         changeLock()
     }
     
+    // Controll the segmented control for both viewcontroller and touchbar
     func changeLock() {
         print(state)
         if(state == 0) {
@@ -47,6 +49,7 @@ class ViewController: NSViewController {
         }
     }
 
+    // Check the status of the latch
     func checkStatusLatch() {
         latchInt.checkStatus { (status) in
             print(status)
@@ -55,6 +58,7 @@ class ViewController: NSViewController {
         }
     }
     
+    // Changes UI to fit the paired latch
     func pairNewLatch(account: String) {
         UserDefaults.standard.set(account, forKey: "app_id")
         accountId = account
@@ -64,6 +68,7 @@ class ViewController: NSViewController {
         latchPosition.isEnabled = false
     }
     
+    //Pair latch with a given token
     @IBAction func pairLatch(_ sender: Any) {
         latchInt.pairLatch(token: pairText.stringValue) { (account) in
             if (account != "error") {
@@ -93,6 +98,7 @@ extension ViewController: NSTouchBarDelegate {
         return touchbar
     }
     
+    //Adds function to all the touchbar items
     func touchBar(_ touchBar: NSTouchBar, makeItemForIdentifier identifier: NSTouchBarItem.Identifier) -> NSTouchBarItem? {
         switch identifier {
         case NSTouchBarItem.Identifier.latchLabelItem:

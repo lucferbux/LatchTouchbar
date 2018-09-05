@@ -739,10 +739,10 @@
                                 </connections>
                             </segmentedControl>
                             <stackView distribution="fill" orientation="horizontal" alignment="bottom" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OVh-CJ-MK3">
-                                <rect key="frame" x="20" y="20" width="318" height="47"/>
+                                <rect key="frame" x="20" y="20" width="260" height="47"/>
                                 <subviews>
                                     <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Vw-wa-O14">
-                                        <rect key="frame" x="0.0" y="0.0" width="258" height="47"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="47"/>
                                         <subviews>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2Ur-wM-pQR">
                                                 <rect key="frame" x="-2" y="30" width="137" height="17"/>
@@ -753,7 +753,10 @@
                                                 </textFieldCell>
                                             </textField>
                                             <secureTextField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FlV-rb-PbF">
-                                                <rect key="frame" x="0.0" y="0.0" width="258" height="22"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="22"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="Rhq-9Q-JUn"/>
+                                                </constraints>
                                                 <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="Dr7-Mj-gFz">
                                                     <font key="font" metaFont="system"/>
                                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -774,7 +777,7 @@
                                         </customSpacing>
                                     </stackView>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1lx-gT-5Ru">
-                                        <rect key="frame" x="260" y="-7" width="64" height="32"/>
+                                        <rect key="frame" x="202" y="-7" width="64" height="32"/>
                                         <buttonCell key="cell" type="push" title="Pair" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="PtT-LZ-56x">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>

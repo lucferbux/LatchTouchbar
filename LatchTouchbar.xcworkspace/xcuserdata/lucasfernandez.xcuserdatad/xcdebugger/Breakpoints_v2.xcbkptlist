@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LatchTouchbar/ViewController.swift"
-            timestampString = "557847329.0173531"
+            timestampString = "557848801.9590631"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "changeLock()"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,7 +154,7 @@
                   moduleName = "LatchTouchbar"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lucasfernandez/LocalDocuments/Telefonica/Seguridad%20Apple/LatchTouchbar/LatchTouchbar/Model/LatchInterface.swift"
-                  timestampString = "557847329.4526531"
+                  timestampString = "557848802.385673"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "30"
@@ -169,7 +169,7 @@
                   moduleName = "LatchTouchbar"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lucasfernandez/LocalDocuments/Telefonica/Seguridad%20Apple/LatchTouchbar/LatchTouchbar/Model/LatchInterface.swift"
-                  timestampString = "557847329.453877"
+                  timestampString = "557848802.386958"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "31"
@@ -256,6 +256,118 @@
             startingLineNumber = "77"
             endingLineNumber = "77"
             landmarkName = "parseResponseStatus(response:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LatchTouchbar/ViewController.swift"
+            timestampString = "557848801.959398"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "pairLatch(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LatchTouchbar.ViewController.pairLatch(Any) -&gt; ()"
+                  moduleName = "LatchTouchbar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasfernandez/LocalDocuments/Telefonica/Seguridad%20Apple/LatchTouchbar/LatchTouchbar/ViewController.swift"
+                  timestampString = "557848802.405447"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "29">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in LatchTouchbar.ViewController.pairLatch(Any) -&gt; ()"
+                  moduleName = "LatchTouchbar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasfernandez/LocalDocuments/Telefonica/Seguridad%20Apple/LatchTouchbar/LatchTouchbar/ViewController.swift"
+                  timestampString = "557848802.4069721"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LatchTouchbar/ViewController.swift"
+            timestampString = "557848801.959561"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "pairLatch(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LatchTouchbar/ViewController.swift"
+            timestampString = "557848801.959709"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "pairLatch(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LatchTouchbar/ViewController.swift"
+            timestampString = "557848801.959857"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "pairLatch(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LatchTouchbar/Model/LatchInterface.swift"
+            timestampString = "557848750.418415"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "pairLatch(token:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
