@@ -1,0 +1,6 @@
+framework module Pods_LatchTouchbarTests {
+  umbrella header "Pods-LatchTouchbarTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
